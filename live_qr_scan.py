@@ -58,7 +58,7 @@ while True:
 
         print(f"[DETECTED] สแกนพบรหัส: '{qr_data}'")
 
-        # ค้นหาข้อมูลใน SQLite
+        # ค้นหาข้อมูล SQLite
         user_info = get_user_from_db(qr_data)
         if user_info:
             text = f"PASS: {user_info[0]} ({user_info[1]})"
