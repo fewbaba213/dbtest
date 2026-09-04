@@ -23,8 +23,8 @@ cursor.execute('''
 ''')
 
 # ใส่ข้อมูลพนักงาน
-cursor.execute("INSERT OR REPLACE INTO users VALUES ('EMP-001', 'เดชาธร เปรมประเสริฐ', 'แผนกคอมพิวเตอร์')")
-cursor.execute("INSERT INTO ppe_logs (user_id, status) VALUES ('EMP-001', 'PASS')")
+cursor.execute("INSERT OR REPLACE INTO users VALUES ('EMP-002', 'Pongsiri sakultae', 'แผนกผลิต')")
+cursor.execute("INSERT INTO ppe_logs (user_id, status) VALUES ('EMP-002', 'PASS')")
 
 # 4. บันทึกข้อมูลและปิดการเชื่อมต่อ
 conn.commit()
