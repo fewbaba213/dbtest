@@ -41,7 +41,7 @@ while True:
             break
         continue
     
-    # ถ้ารับภาพได้ปกติ ให้รีเซ็ตตัวคูณ
+    # ถ้ารับภาพได้ปกติ 
     fail_count = 0
 
     # ใช้ pyzbar ถอดรหัส QR Code จากภาพ
